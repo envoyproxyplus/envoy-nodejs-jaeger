@@ -1,4 +1,6 @@
 FROM node:{{nodejs}}-alpine
+# Add bash 
+RUN apk add --no-cache bash
 #####
 ENV LANG=C.UTF-8
 
